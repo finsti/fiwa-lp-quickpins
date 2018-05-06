@@ -1,0 +1,38 @@
+ .style-left {
+  margin-left: calc(10% - 10px);
+}
+
+.style-right {
+  margin-right: calc(10% - 10px);
+}
+ 
+ .nav {
+  /* z-index: 10; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1da1f2;
+}
+
+.nav * {
+  margin-top: 0;
+}
+
+.nav a {
+  float: left;
+  padding: 20px 10px;
+  transition: color 400ms;
+  -webkit-transition: color 400ms;
+}
+
+.nav li {
+  display: block;
+  float: right;
+  position: relative;
+  top: 20px;
+}
+
+.nav img {
+  height: 50px;
+  padding-right: 10px;
+}

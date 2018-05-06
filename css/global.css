@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  top: 94px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}

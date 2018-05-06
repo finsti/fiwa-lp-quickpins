@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+a:link, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #333;
+}
