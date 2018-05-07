@@ -17,7 +17,7 @@ const appHtmlTitle = 'Webpack Boilerplate';
 module.exports = {
     entry: {
         vendor: [
-            'lodash'
+            // e.g. 'vendor.js'
         ],
         bundle: path.join(dirApp, 'index')
     },
